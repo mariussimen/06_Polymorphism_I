@@ -11,6 +11,10 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+
+// ---Das sollte nicht gehen !---//
+        HoneyBee bee = new HoneyBee();// SuperKlasse!
+        pollObj(bee);
    
     //   output(queen.doYourJob());
     //   output(queen.fly()); 
