@@ -25,23 +25,13 @@ public class App {
     //   output("--------------");
 
     }
-//   Overloading 
-    private static void pollObj(Queen obj){
+//   Polymorphie
+    private static void pollObj(HoneyBee obj){
         output(obj.doYourJob());
         output(obj.fly());
         output("----------------");
     }
-    // Overloading
-    private static void pollObj(Worker obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("----------------");
-    }
-    // Overloading
-    private static void pollObj(Drone obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("----------------");
+    
     }
 
     private static void output(String outputStr) {
