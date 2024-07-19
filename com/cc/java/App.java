@@ -32,7 +32,7 @@ public class App {
         output("----------------");
     }
     
-    }
+    
 
     private static void output(String outputStr) {
         System.out.println(outputStr);
